@@ -1,3 +1,89 @@
-:root(
-    --primari
-) ;
+:root {
+	--primary-brand-color: #4d5ae5;
+	--pressed-state-color: #404bbf;
+	--dark-color: #2e2f42;
+	--success-color: #31d0aa;
+	--text-color: #434455;
+	--subtle-text-color: #8e8f99;
+	--accent-color: #e7e9fc;
+	--light-color: #f4f4fd;
+	--modal-overlay-color: #2e2f42;
+	--hero-background-color: #2e2f42;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+.link {
+	text-decoration: none;
+	font-style: normal;
+	color: inherit;
+}
+
+.a {
+	text-decoration: none;
+}
+
+.list {
+	list-style: none;
+}
+/* ----------BODY-------- */
+body {
+	background-color: var(--light-color);
+	font-family: "Roboto", sans-serif;
+	color: var(--text-color);
+}
+
+/* ----------HEADER-------- */
+.header-nav-logo,
+.header-nav-logo-span {
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.header-nav-logo {
+	color: var(--dark-color);
+}
+.header-nav-logo-span {
+	color: var(--primary-brand-color);
+}
+
+.menu {
+	color: var(--dark-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+	color: var(--pressed-state-color);
+}
+
+.contact-item {
+	color: var(--dark-color);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+	color: var(--pressed-state-color);
+}
