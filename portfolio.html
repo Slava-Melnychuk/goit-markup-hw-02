@@ -5,39 +5,64 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Portfolio</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<!-- Header -->
-		<header>
-			<nav>
-				<a href="./index.html">WebStudio</a>
-				<ul>
-					<li><a href="./index.html">Studio</a></li>
-					<li><a href="">Portfolio</a></li>
-					<li><a href="">Contacts</a></li>
+		<header class="header">
+			<nav class="header-nav">
+				<a class="header-nav-logo link" href="./index.html">
+					<span class="header-nav-logo-span">Web</span>
+					Studio
+				</a>
+				<ul class="menu list">
+					<li class="menu-item"><a class="link" href="">Studio</a></li>
+					<li class="menu-item">
+						<a class="link" href="./portfolio.html">Portfolio</a>
+					</li>
+					<li class="menu-item"><a class="link" href="">Contacts</a></li>
 				</ul>
 			</nav>
-			<ul>
-				<li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li><a href="tel:+11(000)1111111">+11 (000) 111-11-11</a></li>
+			<ul class="contacts list">
+				<li>
+					<a class="contact-item link" href="mailto:info@devstudio.com">
+						info@devstudio.com
+					</a>
+				</li>
+				<li>
+					<a class="contact-item link" href="tel:+11(000)1111111">
+						+11 (000) 111-11-11
+					</a>
+				</li>
 			</ul>
+		</header>
 
 			<!-- Main -->
-			<main>
-				<h1>Portfolio</h1>
-				<ul>
-					<li><button type="button">All</button></li>
-					<li><button type="button">Site</button></li>
-					<li><button type="button">App</button></li>
-					<li><button type="button">Design</button></li>
-					<li><button type="button">Marketing</button></li>
+			<main class="main-portfolio">
+				<h1 class="visually-hidden">Portfolio</h1>
+				<ul class="list filter">
+					<li><button class="filter-btn" type="button">All</button></li>
+					<li><button class="filter-btn" type="button">Site</button></li>
+					<li><button class="filter-btn" type="button">App</button></li>
+					<li><button class="filter-btn" type="button">Design</button></li>
+					<li><button class="filter-btn" type="button">Marketing</button></li>
 				</ul>
-				<ul>
-					<li>
+				<ul class="list">
+					<li class="card">
 						<a href="">
-							<img src="./images/App.jpg" alt="Banking App Interface Concept" width="360" />
-							<h2>Banking App Interface Concept</h2>
-							<p>App</p>
+							<img
+								src="./images/App.jpg"
+								alt="Banking App Interface Concept"
+								width="360"
+							/>
+							<h2 class="card-name">Banking App Interface Concept</h2>
+							<p class="card-type">App</p>
 							<p>
 								14 Stylish and User-Friendly App Design Concepts · Task Manager
 								App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
@@ -45,11 +70,15 @@
 							</p>
 						</a>
 					</li>
-					<li>
+					<li class="card">
 						<a href="">
-							<img src="./images/Cashless Payment.jpg" alt="Cashless Payment" width="360" />
-							<h2>Cashless Payment</h2>
-							<p>Marketing</p>
+							<img
+								src="./images/Cashless Payment.jpg"
+								alt="Cashless Payment"
+								width="360"
+							/>
+							<h2 class="card-name">Cashless Payment</h2>
+							<p class="card-type">Marketing</p>
 							<p>
 								14 Stylish and User-Friendly App Design Concepts · Task Manager
 								App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
@@ -57,11 +86,15 @@
 							</p>
 						</a>
 					</li>
-					<li>
+					<li class="card">
 						<a href="">
-							<img src="./images/Meditaion App.jpg" alt="Meditaion App" width="360" />
-							<h2>Meditaion App</h2>
-							<p>App</p>
+							<img
+								src="./images/Meditaion App.jpg"
+								alt="Meditaion App"
+								width="360"
+							/>
+							<h2 class="card-name">Meditaion App</h2>
+							<p class="card-type">App</p>
 							<p>
 								14 Stylish and User-Friendly App Design Concepts · Task Manager
 								App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
@@ -69,11 +102,15 @@
 							</p>
 						</a>
 					</li>
-					<li>
+					<li class="card">
 						<a href="">
-							<img src="./images/Taxi Service.jpg" alt="Taxi Service" width="360" />
-							<h2>Taxi Service</h2>
-							<p>Marketing</p>
+							<img
+								src="./images/Taxi Service.jpg"
+								alt="Taxi Service"
+								width="360"
+							/>
+							<h2 class="card-name">Taxi Service</h2>
+							<p class="card-type">Marketing</p>
 							<p>
 								14 Stylish and User-Friendly App Design Concepts · Task Manager
 								App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
@@ -81,11 +118,15 @@
 							</p>
 						</a>
 					</li>
-					<li>
+					<li class="card">
 						<a href="">
-							<img src="./images/Screen Illustrations.jpg" alt="Screen Illustrations" width="360" />
-							<h2>Screen Illustrations</h2>
-							<p>Design</p>
+							<img
+								src="./images/Screen Illustrations.jpg"
+								alt="Screen Illustrations"
+								width="360"
+							/>
+							<h2 class="card-name">Screen Illustrations</h2>
+							<p class="card-type">Design</p>
 							<p>
 								14 Stylish and User-Friendly App Design Concepts · Task Manager
 								App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
@@ -93,11 +134,15 @@
 							</p>
 						</a>
 					</li>
-					<li>
+					<li class="card">
 						<a href="">
-							<img src="./images/Online Courses.jpg" alt="Online Courses" width="360" />
-							<h2>Online Courses</h2>
-							<p>Marketing</p>
+							<img
+								src="./images/Online Courses.jpg"
+								alt="Online Courses"
+								width="360"
+							/>
+							<h2 class="card-name">Online Courses</h2>
+							<p class="card-type">Marketing</p>
 							<p>
 								14 Stylish and User-Friendly App Design Concepts · Task Manager
 								App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
@@ -105,11 +150,15 @@
 							</p>
 						</a>
 					</li>
-					<li>
+					<li class="card">
 						<a href="">
-							<img src="./images/Instagram Stories Concept.jpg" alt="Instagram Stories Concept" width="360" />
-							<h2>Instagram Stories Concept</h2>
-							<p>Design</p>
+							<img
+								src="./images/Instagram Stories Concept.jpg"
+								alt="Instagram Stories Concept"
+								width="360"
+							/>
+							<h2 class="card-name">Instagram Stories Concept</h2>
+							<p class="card-type">Design</p>
 							<p>
 								14 Stylish and User-Friendly App Design Concepts · Task Manager
 								App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
@@ -117,11 +166,15 @@
 							</p>
 						</a>
 					</li>
-					<li>
+					<li class="card">
 						<a href="">
-							<img src="./images/Organic Food.jpg" alt="Organic Food" width="360" />
-							<h2>Organic Food</h2>
-							<p>Web Site</p>
+							<img
+								src="./images/Organic Food.jpg"
+								alt="Organic Food"
+								width="360"
+							/>
+							<h2 class="card-name">Organic Food</h2>
+							<p class="card-type">Web Site</p>
 							<p>
 								14 Stylish and User-Friendly App Design Concepts · Task Manager
 								App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
@@ -129,11 +182,16 @@
 							</p>
 						</a>
 					</li>
-					<li>
+					<li class="card">
 						<a href="">
-							<img src="./images/Fresh Coffee.jpg" alt="vilet app" Fresh Coffee="360" />
-							<h2>Fresh Coffee</h2>
-							<p>Web Site</p>
+							<img
+								src="./images/Fresh Coffee.jpg"
+								alt="vilet app"
+								Fresh
+								Coffee="360"
+							/>
+							<h2 class="card-name">Fresh Coffee</h2>
+							<p class="card-type">Web Site</p>
 							<p>
 								14 Stylish and User-Friendly App Design Concepts · Task Manager
 								App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
@@ -141,18 +199,20 @@
 							</p>
 						</a>
 					</li>
-				
 				</ul>
 			</main>
 
 			<!-- Footer -->
-			<footer>
-				<a href="./index.html">WebStudio</a>
-				<p>
-					Increase the flow of customers and sales for your business with
-					digital marketing & growth solutions.
-				</p>
-			</footer>
+			<footer class="footer">
+			<a class="footer-nav-logo link" href="./index.html">
+				<span class="footer-nav-logo-span">Web</span>
+				Studio
+			</a>
+			<p>
+				Increase the flow of customers and sales for your business with digital
+				marketing & growth solutions.
+			</p>
+		</footer>
 		</header>
 	</body>
 </html>

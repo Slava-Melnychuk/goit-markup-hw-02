@@ -99,7 +99,7 @@ body {
 
 .main {
 	background-color: var(--dark-color);
-	color: var(#ffffff);
+	color: #ffffff;
 }
 .main-title {
 	font-weight: 700;
@@ -112,6 +112,7 @@ body {
 .main-btn {
 	color: #ffffff;
 	background-color: var(--primary-brand-color);
+	font-family: "Roboto", sans-serif;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
@@ -146,7 +147,7 @@ body {
 }
 .team-mmbr-name {
 	color: var(--dark-color);
-	font-weight: 500px;
+	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
@@ -180,4 +181,35 @@ body {
 }
 .footer-nav-logo-span {
 	color: var(--primary-brand-color);
+}
+
+/* ----------PORTFOLIO-------- */
+.main-portfolio {
+	background-color: #ffffff;
+}
+
+.filter-btn {
+	font-family: "Roboto", sans-serif;
+	color: var(--primary-brand-color);
+	background-color: var(--light-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+	color: #ffffff;
+	background-color: var(--pressed-state-color);
+}
+
+.card-name {
+	color: var(--dark-color);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.card-type {
+	line-height: 1.5;
 }
