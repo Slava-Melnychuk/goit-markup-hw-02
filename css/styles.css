@@ -37,9 +37,16 @@
 .list {
 	list-style: none;
 }
+
+.title {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11;
+	color: var(--dark-color);
+}
 /* ----------BODY-------- */
 body {
-	background-color: var(--light-color);
+	background-color: #ffffff;
 	font-family: "Roboto", sans-serif;
 	color: var(--text-color);
 }
@@ -86,4 +93,91 @@ body {
 .contact-item:hover,
 .contact-item:focus {
 	color: var(--pressed-state-color);
+}
+
+/* ----------MAIN-------- */
+
+.main {
+	background-color: var(--dark-color);
+	color: var(#ffffff);
+}
+.main-title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07;
+	color: #ffffff;
+	letter-spacing: 0.02em;
+}
+
+.main-btn {
+	color: #ffffff;
+	background-color: var(--primary-brand-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+}
+
+.btn:hover {
+	background-color: var(--pressed-state-color);
+}
+/* ----------OUR ADVANTAGES-------- */
+
+.feature-item-title {
+	color: var(--dark-color);
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.feature-item-text {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+/* ----------OUR TEAM-------- */
+.team {
+	background-color: var(--light-color);
+}
+.team-card {
+	background-color: #ffffff;
+}
+.team-mmbr-name {
+	color: var(--dark-color);
+	font-weight: 500px;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+.team-mmbr-psn {
+	line-height: 1.5;
+}
+
+/* ----------FOOTER-------- */
+
+.footer {
+	background-color: var(--dark-color);
+	color: var(--accent-color);
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.footer-nav-logo,
+.footer-nav-logo-span {
+	text-decoration: none;
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+.footer-nav-logo {
+	color: var(--light-color);
+}
+.footer-nav-logo-span {
+	color: var(--primary-brand-color);
 }
