@@ -120,7 +120,8 @@ body {
 	letter-spacing: 0.04em;
 }
 
-.btn:hover {
+.btn:hover,
+.btn:focus {
 	background-color: var(--pressed-state-color);
 }
 /* ----------OUR ADVANTAGES-------- */
